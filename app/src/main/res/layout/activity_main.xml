@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/messi"
+    tools:context="com.example.hp1.fatbool.MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:text="Teams"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btTeams" />
+
+    <Button
+        android:text="Highscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btHighscore" />
+
+    <Button
+        android:text="Pictures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btPictures" />
+
+    <Button
+        android:id="@+id/btnoty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification" />
+
+    <Button
+        android:id="@+id/btcm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+</LinearLayout>
